@@ -1,0 +1,167 @@
+#nyj-page{
+    background-color: burlywood;
+    width: 40%;
+    padding-left: 200px;
+    margin-left: 20%;
+    padding-left: 70px;
+    margin-left: 20%;
+    height: 955px;
+}
+.chapter1{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.title{
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    padding-top: 50px;
+
+}
+.summary{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+@media screen and (min-width: 280px) and (max-width: 370px){
+    #nyj-page{
+        background-color: burlywood;
+        width: 265px;
+        padding-left: -50px;
+        margin-left: -2%;
+        padding-left: 10px;
+        height: 750px;
+    }
+    .chapter1{
+        padding-top: 1px;
+        padding-bottom: 2px;
+    }
+    .title{
+        font-size: 10px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 15px;
+        padding-top: 1px;
+    
+    }
+    .summary{
+        font-size: 11px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+
+}
+
+@media screen and (min-width: 371px) and (max-width: 667px){
+    #nyj-page{
+        background-color: burlywood;
+        width: 360px;
+        padding-left: -50px;
+        margin-left: -2%;
+        padding-left: 10px;
+        height: 750px;
+    }
+    .chapter1{
+        padding-top: 1px;
+        padding-bottom: 2px;
+    }
+    .title{
+        font-size: 10px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 15px;
+        padding-top: 1px;
+    
+    }
+    .summary{
+        font-size: 12px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+
+
+}
+
+@media screen and (min-width: 668px) and (max-width: 1000px){
+    #nyj-page{
+        background-color: burlywood;
+        width: 760px;
+        padding-left: -50px;
+        margin-left: -2%;
+        padding-left: 10px;
+        height: 850px;
+    }
+    .chapter1{
+        padding-top: 1px;
+        padding-bottom: 2px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 19px;
+        padding-top: 1px;
+    
+    }
+    .summary{
+        font-size: 17px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px){
+    #nyj-page{
+        background-color: burlywood;
+        width: 1015px;
+        padding-left: -50px;
+        margin-left: -2%;
+        padding-left: 10px;
+        height: 750px;
+    }
+    .chapter1{
+        padding-top: 1px;
+        padding-bottom: 2px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 19px;
+        padding-top: 1px;
+    
+    }
+    .summary{
+        font-size: 18px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+
+}

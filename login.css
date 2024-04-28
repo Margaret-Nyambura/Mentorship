@@ -1,0 +1,212 @@
+#login-page{
+    width: 800px;
+    padding-top: 20px;
+    background-color: burlywood;
+    border-radius: 30px;
+    margin-left: 30%;
+    padding-left: 150px;
+    align-items: center;
+    height: 945px;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    padding-left: 30%;
+}
+.welcome-back{
+    font-size: 40px;
+    color: black;
+    margin-left: 15%;
+    padding-left: 40px;
+
+}
+.login{
+background-color: black;
+color: white;
+border-radius: 15px;
+width: 15%;
+height: 40px;
+text-align: center;
+padding-left: 20px;
+
+}
+
+.already-have-an-account{
+    margin-left: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+
+}
+.logos{
+    display: flex;
+    gap: 100px;
+    width: 50px;
+    height: 50px;
+    padding-left: 100px;
+    padding-bottom: 5px;
+}
+.input-field1{
+    border-radius: 30px;
+    height: 25px;
+    width: 75%;
+    height: 35px;
+    margin-bottom: 6%;
+    padding-left: 30px;
+
+}
+.input-field2{
+    border-radius: 30px;
+    height: 25px;
+    width: 75%;
+    height: 35px;
+    margin-bottom: 6%;
+    padding-left: 30px;
+
+}
+.input-field3{
+    border-radius: 20px;
+    height: 25px;
+    width: 75%;
+    height: 35px;
+    margin-bottom: 6%;
+    padding-left: 30px;
+}
+.login{
+    margin-left: 15%;
+    width: 30%;
+    border-radius: 15px;
+    height: 40px;
+    background-color: black;
+    color: white;
+   
+}
+.home{
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+.inputs{
+    padding-left: 50px;
+}
+#text{
+    color: white;
+    text-decoration: none;
+}
+.home{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 80%;
+}
+
+@media screen and (min-width: 280px) and (max-width: 400px){
+    #login-page{
+        /* width: 10px; */
+        /* padding-top: 20px; */
+        background-color: burlywood;
+        border-radius: 30px;
+        /* margin-left: 40%; */
+        /* padding-left: 150px; */
+        align-items: center;
+        height: 100px;
+        
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+        /* padding-left: 30%; */
+    }
+    .welcome-back{
+        font-size: 40px;
+        color: black;
+        margin-left: 15%;
+        padding-left: 40px;
+    
+    }
+    .login{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 15%;
+    height: 40px;
+    text-align: center;
+    padding-left: 20px;
+    
+    }
+    
+    .already-have-an-account{
+        margin-left: 10%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 60px;
+    
+    }
+    .logos{
+        display: flex;
+        gap: 100px;
+        width: 50px;
+        height: 50px;
+        padding-left: 100px;
+        padding-bottom: 5px;
+    }
+    .input-field1{
+        border-radius: 10px;
+        height: 25px;
+        width: 75%;
+        height: 35px;
+        margin-bottom: 6%;
+    }
+    .input-field2{
+        border-radius: 10px;
+        height: 25px;
+        width: 75%;
+        height: 35px;
+        margin-bottom: 6%;
+    }
+    .input-field3{
+        border-radius: 10px;
+        height: 25px;
+        width: 75%;
+        height: 35px;
+        margin-bottom: 6%;
+    }
+    .login{
+        margin-left: 15%;
+        width: 30%;
+        border-radius: 15px;
+        height: 40px;
+        background-color: black;
+        color: white;
+       
+    }
+    .home{
+        margin-left: 30%;
+        margin-bottom: 30px;
+    }
+    .inputs{
+        padding-left: 50px;
+    }
+    #text{
+        color: white;
+        text-decoration: none;
+    }
+    .home{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        width: 10%;
+        height: 40px;
+        text-align: center;
+        margin-top: 2%;
+        margin-left: 80%;
+    } 
+}

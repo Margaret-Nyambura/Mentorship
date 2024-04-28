@@ -1,0 +1,158 @@
+#todo-page{
+    background-color: burlywood;
+    width: 40%;
+    padding-left: 200px;
+    margin-left: 20%;
+    padding-top: 30px;
+    padding-left: 70px;
+    margin-left: 20%;
+    height: 915px;
+}
+.todo{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: black;
+    padding-left: 280px;    
+
+}
+.logo-and-nav{
+    display: flex;
+    gap: 100px;
+}
+.header{
+    display: flex;
+    gap: 200px;
+    padding-bottom: 40px;
+}
+.logo{
+    margin-left: 5%;
+    padding-top: 10px;
+    width: 130px;
+    height: 130px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+    padding-top: 60px;
+    gap: 40px;
+}
+.task{
+    font-size: 25px;
+    margin-left: 10%;
+}
+.your-task{
+    border-radius: 15px;
+    height: 45px;
+    width: 440px;
+    padding-left: 20px;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.checkbox{
+    width: 35px;
+    height: 40px;
+    padding-bottom: 20px;
+    /* width: 35px;
+    height: 35px;
+    /* margin-top: 2%; */
+    /* padding-left: 20px; */
+} */
+#field{
+    padding-left: 100px;
+    height: 40px;
+    margin-bottom: 5%;
+    padding-bottom: 70px;
+}
+.input-spaces{
+    padding-left: 70px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 400px){
+    #todo-page{
+        background-color: burlywood;
+        width: 249px;
+        padding-left: 20px;
+        margin-left: 1%; 
+        padding-top: 10px;
+        /* padding-left: 70px; */
+        /* margin-left: 20%; */
+        height: 628px;
+    }
+    .todo{
+        padding-top: 1px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        color: black;
+        padding-left: 2px;    
+    
+    }
+    .logo-and-nav{
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+    .header{
+        display: flex;
+        gap: 200px;
+        padding-bottom: 40px;
+    }
+    .logo{
+        margin-left: 1%;
+        /* padding-top: 1px; */
+        width: 70px;
+        height: 70px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 15px;
+        padding-top: 60px;
+        gap: 40px;
+    }
+    .task{
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    .your-task{
+        border-radius: 15px;
+        height: 20px;
+        width: 160px;
+        padding-left: 10px;
+        
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .checkbox{
+        width: 25px;
+        height: 25px;
+        padding-bottom: 20px;
+        /* width: 35px;
+        height: 35px;
+        /* margin-top: 2%; */
+        /* padding-left: 20px; */
+    } */
+    #field{
+        padding-left: 100px;
+        height: 5px;
+        margin-bottom: -10%;
+        padding-bottom: 10px;
+    }
+    .input-spaces{
+        padding-left: 1px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    
+    }
+    
+}
