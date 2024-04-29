@@ -6,7 +6,7 @@
     width: 35%;
     margin-left: 30%;
     margin-right: 30%;
-    height: 970px;
+    height: 950px;
 }
 
 .logo{
@@ -136,11 +136,11 @@ a{
         border-radius: 30px;
         padding-left: 2px;
         align-items: center;
-        width: 349px;
-        height: 857px;
-        margin-left: 5%;
+        width: 355px;
+        height: 650px;
+        margin-left: -1%;
         margin-right: 13%;
-        
+        padding-top: 10px;
         /* height: 50px; */
     }
     
@@ -149,7 +149,7 @@ a{
         height: 100px;
         padding-bottom: 10px;
         padding-left: 110px;
-        padding-top: 25px;
+        padding-top: 2px;
     }
     #text{
         color: white;
@@ -174,73 +174,66 @@ a{
     
     .logos{
         display: flex;
-        gap: 100px;
+        gap: 60px;
         
     }
     .field1{
         border-radius: 10px;
-        height: 25px;
-        margin-bottom: 2%;
+        margin-bottom: -3%;
         width: 60%;
-        height: 35px;
-        
+        height: 20px;
+        margin-top: 2%;
         
     }
     .field2{
         border-radius: 10px;
-        height: 25px;
-        margin-bottom: 2%;
+        margin-bottom: -3%;
         width: 60%;
-        height: 35px;
+        height: 15px;
     }
     .field3{
         border-radius: 10px;
-        height: 25px;
-        margin-bottom: 2%;
+        margin-bottom: -3%;
         width: 60%;
-        height: 35px;
+        height: 15px;
     }
     .field4{
         border-radius: 10px;
-        height: 25px;
-        margin-bottom: 2%;
+        margin-bottom: -3%;
         width: 60%;
-        height: 35px;
+        height: 15px;
     }
     .field5{
         border-radius: 10px;
-        height: 25px;
-        margin-bottom: 2%;
+        margin-bottom: -3%;
         width: 60%;
-        height: 35px;
+        height: 15px;
     }
     .field6{
         border-radius: 10px;
-        height: 25px;
-        margin-bottom: 2%;
+        margin-bottom: -3%;
         width: 60%;
-        height: 35px;
+        height: 15px;
     }
     .field7{
         border-radius: 10px;
-        height: 25px;
-        margin-bottom: 2%;
+        margin-bottom: -3%;
         width: 60%;
-        height: 35px;
+        height: 15px;
     }
     .sign-up{
         margin-left: 15%;
-        width: 20%;
+        width: 22%;
         border-radius: 15px;
-        height: 40px;
+        height: 30px;
         background-color: black;
         color: white;
-        margin-top: 2%;
+        margin-top: 5%;
     }
     
     .account-already{
-        padding-top: 50px;
-        padding-bottom: 20px;
+        margin-top: 5%;
+        padding-bottom: 1px;
         padding-left: 100px;
     }
     .input-fields{
@@ -251,10 +244,9 @@ a{
         background-color: black;
         color: white;
         border-radius: 15px;
-        width: 18%;
-        height: 40px;
+        width: 19%;
+        height: 30px;
         text-align: center;
-        margin-top: 2%;
         margin-left: 10%;
     }
 }

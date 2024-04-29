@@ -6,7 +6,7 @@
     margin-left: 30%;
     padding-left: 150px;
     align-items: center;
-    height: 945px;
+    height: 935px;
     
 }
 a{
@@ -110,27 +110,29 @@ padding-left: 20px;
 
 @media screen and (min-width: 280px) and (max-width: 400px){
     #login-page{
-        /* width: 10px; */
-        /* padding-top: 20px; */
         background-color: burlywood;
         border-radius: 30px;
-        /* margin-left: 40%; */
-        /* padding-left: 150px; */
         align-items: center;
-        height: 100px;
+        height: 750px;
+        width: 200px;
+        margin-left: -10%;
+
         
     }
     .logo{
-        width: 50px;
-        height: 50px;
-        /* padding-left: 30%; */
+        width: 150px;
+        height: 150px;
+        margin-left: -1%;
+        padding-left: -20px;
+        margin-left: -85%;
+
     }
     .welcome-back{
         font-size: 40px;
         color: black;
-        margin-left: 15%;
-        padding-left: 40px;
-    
+        padding-left: -20px;
+        margin-left: -85%;
+
     }
     .login{
     background-color: black;
@@ -138,13 +140,12 @@ padding-left: 20px;
     border-radius: 15px;
     width: 15%;
     height: 40px;
-    text-align: center;
-    padding-left: 20px;
-    
+    margin-left: -85%;
+
     }
     
     .already-have-an-account{
-        margin-left: 10%;
+        margin-left: -85%;
         padding-top: 25px;
         padding-bottom: 25px;
         padding-left: 60px;
@@ -152,10 +153,10 @@ padding-left: 20px;
     }
     .logos{
         display: flex;
-        gap: 100px;
+        gap: 10px;
         width: 50px;
         height: 50px;
-        padding-left: 100px;
+        margin-left: -85%;
         padding-bottom: 5px;
     }
     .input-field1{
@@ -189,11 +190,12 @@ padding-left: 20px;
        
     }
     .home{
-        margin-left: 30%;
-        margin-bottom: 30px;
+        margin-left: -12%;
     }
     .inputs{
         padding-left: 50px;
+        margin-left: -85%;
+
     }
     #text{
         color: white;
@@ -209,4 +211,107 @@ padding-left: 20px;
         margin-top: 2%;
         margin-left: 80%;
     } 
+}
+
+@media screen and (min-width: 401px) and (max-width: 700px){
+    #login-page{
+        background-color: burlywood;
+        border-radius: 30px;
+        align-items: center;
+        height: 750px;
+        width: 300px;
+
+        
+    }
+    .logo{
+        width: 150px;
+        height: 150px;
+        margin-left: -1%;
+        padding-left: -20px;
+        
+    }
+    .welcome-back{
+        font-size: 40px;
+        color: black;
+        padding-left: -20px;
+        margin-left: -85%;
+
+    }
+    .login{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 15%;
+    height: 40px;
+    margin-left: -85%;
+
+    }
+    
+    .already-have-an-account{
+        margin-left: -85%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 60px;
+    
+    }
+    .logos{
+        display: flex;
+        gap: 10px;
+        width: 50px;
+        height: 50px;
+        margin-left: -85%;
+        padding-bottom: 5px;
+    }
+    .input-field1{
+        border-radius: 10px;
+        height: 25px;
+        width: 75%;
+        height: 35px;
+        margin-bottom: 6%;
+    }
+    .input-field2{
+        border-radius: 10px;
+        height: 25px;
+        width: 75%;
+        height: 35px;
+        margin-bottom: 6%;
+    }
+    .input-field3{
+        border-radius: 10px;
+        height: 25px;
+        width: 75%;
+        height: 35px;
+        margin-bottom: 6%;
+    }
+    .login{
+        margin-left: 15%;
+        width: 30%;
+        border-radius: 15px;
+        height: 40px;
+        background-color: black;
+        color: white;
+       
+    }
+    .home{
+        margin-left: -12%;
+    }
+    .inputs{
+        padding-left: 50px;
+        margin-left: -85%;
+
+    }
+    #text{
+        color: white;
+        text-decoration: none;
+    }
+    .home{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        width: 10%;
+        height: 40px;
+        text-align: center;
+        margin-top: 2%;
+        margin-left: 80%;
+    }
 }
