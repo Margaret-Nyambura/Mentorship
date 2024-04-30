@@ -23,7 +23,7 @@
 .add{
     width: 70px;
     height: 50px;
-
+    border-radius: 15px;
 }
 #check{
     width: 70px;
