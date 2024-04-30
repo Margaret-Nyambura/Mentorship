@@ -1,18 +1,29 @@
 #nyj-page{
     background-color: burlywood;
-    width: 40%;
+    width: 70%;
     padding-left: 200px;
     margin-left: 20%;
     padding-left: 70px;
     margin-left: 20%;
-    height: 955px;
+    height: 100%;
+}
+.born-a-crime{
+    height: 500px;
+    width: 550px;
+    padding-top: 20px;
+    margin-left: 30%;
 }
 .chapter1{
     padding-top: 2px;
     padding-bottom: 2px;
 }
+.book{
+    font-size: 36px;
+    margin-left: 30%;
+    padding-top: 20px;
+}
 .title{
-    font-size: 20px;
+    font-size: 180px;
 }
 .navbar{
     display: flex;
@@ -22,7 +33,7 @@
 
 }
 .summary{
-    font-size: 20px;
+    font-size: 30px;
 }
 a{
     text-decoration: none;
