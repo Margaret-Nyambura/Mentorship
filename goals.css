@@ -1,18 +1,15 @@
 #goals-page{
     background-color: burlywood;
-    width: 40%;
-    padding-left: 200px;
-    margin-left: 20%;
     padding-bottom: 50px;
-    padding-left: 70px;
-    margin-left: 20%;
+    padding-left: 470px;
     height: 910px;
 }
 .logo{
     padding-left: 70px;
     padding-top: 10px;
-    width: 100px;
-    height: 100px;
+    height: 150px;
+    width: 300px;
+    margin-left: 2%;
 }
 a{
     text-decoration: none;
@@ -26,10 +23,10 @@ a{
 .goals-head{
     font-size: 58px;
     color: black;
-    margin-left: 43%;
+    margin-left: 30%;
     font-size: 40px;
     margin-bottom: 100px;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .navbar{
     display: flex;
@@ -43,7 +40,7 @@ a{
     width: 440px;
     padding-left: 30px;
     padding-bottom: -50px;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 #goal-setting{
     padding-left: 130px;
@@ -55,123 +52,689 @@ a{
     margin-top: 2%;
 }
 .logo{
-    width: 100px;
+    height: 100px;
     width: 100px;    
 }
 
 
-@media screen and (min-width: 280px) and (max-width: 600px){
-
+@media screen and (min-width: 375px) and (max-width: 667px){
     #goals-page{
         background-color: burlywood;
-        width: 60%;
-        /* padding-left: 200px;
-        margin-left: 20%;
-        padding-top: 30px;
-        padding-left: 70px;
-        margin-left: 20%; */
-        height: 690px;
+        padding-bottom: 50px;
+        padding-left: 1px;
+        height: 600px;
+        margin-left: 1%;
+        width: 350px;
     }
-    
+    .logo{
+        padding-left: 70px;
+        padding-top: 10px;
+        height: 150px;
+        width: 30%;
+        margin-left: 2%;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .logo-and-nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 5px;
+    }
     .goals-head{
-        font-size: 25px;
         color: black;
-        /* margin-left: 43%; */
+        margin-left: 30%;
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-top: 5%;
     }
     .navbar{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        font-size: 20px;
+        gap: 10px;
+        font-size: 15px;
+        padding-top: 20px;
+        padding-left: 70px;
     }
     .goal{
-        border-radius: 15px;
-        height: 35px;
-        width: 40px;
-        /* padding-left: 20px;
-        margin-top: 3%; */
+        border-radius: 10px;
+        height: 20px;
+        width: 200px;
+        padding-left: 10px;
+        padding-bottom: -50px;
+        padding-top: 5px;
+        margin-left: -15%;
+        margin-top: 5%;
     }
-    /* #goal{
-        padding-top: 50px;
-        padding-left: 50px;
-    } */
-
+    #goal-setting{
+        padding-left: 100px;
     
+    }
+    #checkbox{
+        width: 20px;
+        height: 20px;
+        margin-top: 2%;
+    }
+    .logo{
+        height: 120px;
+        width: 120px;  
+        margin-top: -6%;  
+    }
+ 
 }
 
-@media screen and (min-width: 601px) and (max-width: 900px){
+@media screen and (min-width: 414px) and (max-width: 896px){
 
     #goals-page{
         background-color: burlywood;
-        width: 20%;
-        /* padding-left: 200px;
-        margin-left: 20%;
-        padding-top: 30px;
-        padding-left: 70px;
-        margin-left: 20%; */
-        height: 915px;
+        padding-bottom: 50px;
+        padding-left: 1px;
+        height: 830px;
+        margin-left: 1%;
+        width: 390px;
     }
-    
+    .logo{
+        padding-left: 70px;
+        padding-top: 20px;
+        height: 200px;
+        width: 40%;
+        margin-left: 2%;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .logo-and-nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 5px;
+    }
     .goals-head{
-        font-size: 55px;
         color: black;
-        /* margin-left: 43%; */
+        margin-left: 30%;
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 5%;
     }
     .navbar{
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 10px;
         font-size: 20px;
+        padding-top: 20px;
+        padding-left: 70px;
     }
     .goal{
-        border-radius: 15px;
-        height: 35px;
-        width: 200px;
-        /* padding-left: 20px;
-        margin-top: 3%; */
+        border-radius: 10px;
+        height: 30px;
+        width: 220px;
+        padding-left: 10px;
+        padding-bottom: -50px;
+        padding-top: 5px;
+        margin-left: -15%;
+        margin-top: 9%;
     }
-    /* #goal{
-        padding-top: 50px;
-        padding-left: 50px;
-    } */
+    #goal-setting{
+        padding-left: 100px;
+    
+    }
+    #checkbox{
+        width: 20px;
+        height: 20px;
+        margin-top: 2%;
+    }
+    .logo{
+        height: 120px;
+        width: 120px;  
+        margin-top: -6%;  
+    }
 
 }
 
-@media screen and (min-width: 901px) and (max-width: 1200px){
+@media screen and (min-width: 390px) and (max-width: 844px){
     #goals-page{
         background-color: burlywood;
-        width: 20%;
-        /* padding-left: 200px;
-        margin-left: 20%;
-        padding-top: 30px;
-        padding-left: 70px;
-        margin-left: 20%; */
-        height: 915px;
+        padding-bottom: 50px;
+        padding-left: 1px;
+        height: 775px;
+        margin-left: 1%;
+        width: 370px;
     }
-    
+    .logo{
+        padding-left: 70px;
+        padding-top: 20px;
+        height: 200px;
+        width: 40%;
+        margin-left: 2%;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .logo-and-nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 5px;
+    }
     .goals-head{
-        font-size: 55px;
         color: black;
-        /* margin-left: 43%; */
+        margin-left: 30%;
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 5%;
     }
     .navbar{
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 10px;
         font-size: 20px;
+        padding-top: 20px;
+        padding-left: 70px;
+    }
+    .goal{
+        border-radius: 10px;
+        height: 30px;
+        width: 220px;
+        padding-left: 10px;
+        padding-bottom: -50px;
+        padding-top: 5px;
+        margin-left: -15%;
+        margin-top: 9%;
+    }
+    #goal-setting{
+        padding-left: 100px;
+    
+    }
+    #checkbox{
+        width: 20px;
+        height: 20px;
+        margin-top: 2%;
+    }
+    .logo{
+        height: 120px;
+        width: 120px;  
+        margin-top: -6%;  
+    }
+
+}
+@media screen and (min-width: 360px) and (max-width: 740px){
+    #goals-page{
+        background-color: burlywood;
+        padding-bottom: 50px;
+        padding-left: 1px;
+        height: 715px;
+        margin-left: 1%;
+        width: 370px;
+    }
+    .logo{
+        padding-left: 70px;
+        padding-top: 20px;
+        height: 200px;
+        width: 40%;
+        margin-left: 2%;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .logo-and-nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 5px;
+    }
+    .goals-head{
+        color: black;
+        margin-left: 30%;
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 5%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 70px;
+    }
+    .goal{
+        border-radius: 10px;
+        height: 30px;
+        width: 220px;
+        padding-left: 10px;
+        padding-bottom: -50px;
+        padding-top: 5px;
+        margin-left: -15%;
+        margin-top: 9%;
+    }
+    #goal-setting{
+        padding-left: 100px;
+    
+    }
+    #checkbox{
+        width: 20px;
+        height: 20px;
+        margin-top: 2%;
+    }
+    .logo{
+        height: 120px;
+        width: 120px;  
+        margin-top: -6%;  
+    }
+
+}@media screen and (min-width: 412px) and (max-width: 915px){
+    #goals-page{
+        background-color: burlywood;
+        padding-bottom: 50px;
+        padding-left: 1px;
+        height: 842px;
+        margin-left: 1%;
+        width: 385px;
+    }
+    .logo{
+        padding-left: 70px;
+        padding-top: 20px;
+        height: 200px;
+        width: 40%;
+        margin-left: 2%;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .logo-and-nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 5px;
+    }
+    .goals-head{
+        color: black;
+        margin-left: 30%;
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-top: 6%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 20px;
+        padding-top: 35px;
+        padding-left: 70px;
+    }
+    .goal{
+        border-radius: 10px;
+        height: 30px;
+        width: 220px;
+        padding-left: 10px;
+        padding-bottom: -50px;
+        padding-top: 5px;
+        margin-left: -15%;
+        margin-top: 9%;
+    }
+    #goal-setting{
+        padding-left: 100px;
+    
+    }
+    #checkbox{
+        width: 20px;
+        height: 20px;
+        margin-top: 2%;
+    }
+    .logo{
+        height: 120px;
+        width: 120px;  
+        margin-top: -6%;  
+    }
+
+}@media screen and (min-width: 820px) and (max-width: 1180px){
+    #goals-page{
+        background-color: burlywood;
+        padding-bottom: 50px;
+        padding-left: 1px;
+        height: 1100px;
+        margin-left: 1%;
+        width: 795px;
+    }
+    .logo{
+        padding-left: 70px;
+        padding-top: 60px;
+        height: 300px;
+        width: 400px;
+        margin-left: 2%;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .logo-and-nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 5px;
+    }
+    .goals-head{
+        color: black;
+        margin-left: 30%;
+        font-size: 50px;
+        margin-bottom: 20px;
+        margin-top: 6%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 25px;
+        padding-top: 35px;
+        padding-left: 70px;
+    }
+    .goal{
+        border-radius: 10px;
+        height: 45px;
+        width: 400px;
+        padding-left: 50px;
+        padding-bottom: -50px;
+        padding-top: 5px;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+    #goal-setting{
+        padding-left: 100px;
+    
+    }
+    #checkbox{
+        width: 35px;
+        height: 35px;
+        margin-top: 2%;
+    }
+    .logo{
+        height: 120px;
+        width: 120px;  
+        margin-top: -6%;  
+    }
+
+}@media screen and (min-width: 768px) and (max-width: 1024px){
+    #goals-page{
+        background-color: burlywood;
+        padding-bottom: 50px;
+        padding-left: 1px;
+        height: 953px;
+        margin-left: 1%;
+        width: 750px;
+    }
+    .logo{
+        padding-left: 70px;
+        padding-top: 60px;
+        height: 300px;
+        width: 400px;
+        margin-left: 2%;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .logo-and-nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 5px;
+    }
+    .goals-head{
+        color: black;
+        margin-left: 30%;
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: 6%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 25px;
+        padding-top: 35px;
+        padding-left: 70px;
+    }
+    .goal{
+        border-radius: 10px;
+        height: 45px;
+        width: 400px;
+        padding-left: 50px;
+        padding-bottom: -50px;
+        padding-top: 5px;
+        margin-left: 2%;
+        margin-top: 3%;
+    }
+    #goal-setting{
+        padding-left: 100px;
+    
+    }
+    #checkbox{
+        width: 35px;
+        height: 35px;
+        margin-top: 2%;
+    }
+    .logo{
+        height: 120px;
+        width: 120px;  
+        margin-top: -6%;  
+    }
+
+}@media screen and (min-width: 912px) and (max-width: 1368px){
+    #goals-page{
+        background-color: burlywood;
+        padding-bottom: 50px;
+        padding-left: 1px;
+        height: 1300px;
+        margin-left: 1%;
+        width: 883px;
+    }
+    .logo{
+        padding-left: 70px;
+        padding-top: 60px;
+        height: 300px;
+        width: 400px;
+        margin-left: 2%;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .logo-and-nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 5px;
+    }
+    .goals-head{
+        color: black;
+        margin-left: 30%;
+        font-size: 60px;
+        margin-bottom: 20px;
+        margin-top: 6%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 30px;
+        padding-top: 35px;
+        padding-left: 70px;
     }
     .goal{
         border-radius: 15px;
-        height: 35px;
-        width: 200px;
-        /* padding-left: 20px;
-        margin-top: 3%; */
-    }
-    /* #goal{
-        padding-top: 50px;
+        height: 70px;
+        width: 450px;
         padding-left: 50px;
-    } */
+        padding-bottom: -50px;
+        padding-top: 5px;
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+    #goal-setting{
+        padding-left: 100px;
+    
+    }
+    #checkbox{
+        width: 45px;
+        height: 45px;
+        margin-top: 2%;
+    }
+    .logo{
+        height: 120px;
+        width: 120px;  
+        margin-top: -6%;  
+    }
+
+}@media screen and (min-width: 540px) and (max-width: 720px){
+    #goals-page{
+        background-color: burlywood;
+        padding-bottom: 50px;
+        padding-left: 1px;
+        height: 650px;
+        margin-left: 1%;
+        width: 520px;
+    }
+    .logo{
+        padding-left: 70px;
+        padding-top: 10px;
+        height: 300px;
+        width: 400px;
+        margin-left: 2%;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .logo-and-nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 5px;
+    }
+    .goals-head{
+        color: black;
+        margin-left: 30%;
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 4%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+        padding-top: 35px;
+        padding-left: 70px;
+    }
+    .goal{
+        border-radius: 10px;
+        height: 20px;
+        width: 200px;
+        padding-left: 50px;
+        padding-bottom: -50px;
+        padding-top: 5px;
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+    #goal-setting{
+        padding-left: 100px;
+    
+    }
+    #checkbox{
+        width: 20px;
+        height: 20px;
+        margin-top: 2%;
+    }
+    .logo{
+        height: 120px;
+        width: 120px;  
+        margin-top: -6%;  
+    }
+
+}
+@media screen and (min-width: 280px) and (max-width: 653px){
+    #goals-page{
+        background-color: burlywood;
+        padding-bottom: 50px;
+        padding-left: 1px;
+        height: 690px;
+        margin-left: -1%;
+        width: 320px;
+    }
+    .logo{
+        padding-left: 70px;
+        padding-top: 10px;
+        height: 300px;
+        width: 400px;
+        margin-left: 2%;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .logo-and-nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 5px;
+    }
+    .goals-head{
+        color: black;
+        margin-left: 30%;
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 4%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+        padding-top: 35px;
+        padding-left: 70px;
+    }
+    .goal{
+        border-radius: 10px;
+        height: 20px;
+        width: 150px;
+        padding-left: 20px;
+        padding-bottom: -50px;
+        padding-top: 5px;
+        margin-left: -15%;
+        margin-top: 4%;
+    }
+    #goal-setting{
+        padding-left: 100px;
+    
+    }
+    #checkbox{
+        width: 20px;
+        height: 20px;
+        margin-top: 2%;
+    }
+    .logo{
+        height: 120px;
+        width: 120px;  
+        margin-top: -6%;  
+    }
+
+}@media screen and (min-width: 390px) and (max-width: 844px){
+    
+
+}@media screen and (min-width: 390px) and (max-width: 844px){
+    
+
+}@media screen and (min-width: 390px) and (max-width: 844px){
+    
+
+}@media screen and (min-width: 390px) and (max-width: 844px){
+    
 
 }
 

@@ -170,14 +170,14 @@ a{
  }
 
 
-@media screen and (min-width: 401px) and (max-width: 700px){
+@media screen and (min-width: 390px) and (max-width: 844px){
     #container{
         background-color: burlywood;
         /* padding-top: 30px;
         padding-left: 60px;
         padding-right: 60px; */
-        width: 277px;
-        height: 849px;
+        width: 200px;
+        height: 1000px;
     }
     a{
         text-decoration: none;
@@ -188,7 +188,7 @@ a{
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-around;
-        font-size: 24px;
+        font-size: 30px;
         margin-top: 5%;
 
     }
@@ -196,7 +196,7 @@ a{
         background-color: black;
         color: white;
         border-radius: 15px;
-        width: 50%;
+        width: 55%;
         height: 40px;
         text-align: center;
         margin-top: 5%;
@@ -205,7 +205,7 @@ a{
     .login{
         background-color:black;
         border-radius: 15px;
-        width: 50%;
+        width: 55%;
         height: 40px;
         text-align: center;
         margin-top: 5%;
@@ -230,14 +230,15 @@ a{
         height: 50px;
     }
     .welcome{
-        font-size: 30px;
+        font-size: 35px;
         margin-top: -10%;
     }
     .logos{
         display: flex;
         gap: 50px;
         margin-left: -5%;
-        margin-bottom: -50px;
+        margin-bottom: -170px;
+        margin-top: -30px;
         
     }
     .news{
@@ -248,11 +249,12 @@ a{
     
     }
     .logo{
-        height: 150px;
-        width: 150px;
-        padding-left: 1%;
-        margin-bottom: -20px;
+        height: 250px;
+        width: 290px;
+        padding-left: 2%;
+        margin-bottom: 55px;
         /* padding-top: 180px; */
+        margin-top: -150px;
     }
     .logo-and-text{
         display: flex;
@@ -267,7 +269,7 @@ a{
         padding-left: 60px;
         padding-right: 60px; */
         width: 640px;
-        height: 1060px;
+        height: 1135px;
         padding-left: 100px;
     }
     a{
@@ -279,7 +281,7 @@ a{
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-around;
-        font-size: 25px;
+        font-size: 28px;
         margin-top: -2%;
 
     }
@@ -290,7 +292,7 @@ a{
         width: 30%;
         height: 40px;
         text-align: center;
-        margin-top: 4%;
+        margin-top: 5%;
 
     }
     .login{
@@ -299,7 +301,7 @@ a{
         width: 30%;
         height: 40px;
         text-align: center;
-        margin-top: 2%;
+        margin-top: 5%;
        
     }
     #text{
@@ -307,21 +309,21 @@ a{
         text-decoration: none;
     }
     .fb{
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
     }
     
     .ig{
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
     }
     
     .twitter{
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
     }
     .welcome{
-        font-size: 50px;
+        font-size: 55px;
         margin-top: 3%;
         margin-bottom: -80px;
     }
@@ -340,8 +342,8 @@ a{
     
     }
     .logo{
-        height: 200px;
-        width: 200px;
+        height: 350px;
+        width: 350px;
         padding-left: 1%;
         margin-top: -7%;
         /* padding-top: 180px; */
@@ -349,5 +351,649 @@ a{
     .logo-and-text{
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #container{
+        background-color: burlywood;
+        /* padding-top: 30px;
+        padding-left: 60px;
+        padding-right: 60px; */
+        width: 600px;
+        height: 980px;
+        padding-left: 100px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 28px;
+        margin-top: -2%;
+
+    }
+    .signing-up{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        width: 30%;
+        height: 40px;
+        text-align: center;
+        margin-top: 5%;
+
+    }
+    .login{
+        background-color:black;
+        border-radius: 15px;
+        width: 30%;
+        height: 40px;
+        text-align: center;
+        margin-top: 5%;
+       
+    }
+    #text{
+        color: white;
+        text-decoration: none;
+    }
+    .fb{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .ig{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .twitter{
+        width: 70px;
+        height: 70px;
+    }
+    .welcome{
+        font-size: 48px;
+        margin-top: 3%;
+        margin-bottom: -80px;
+    }
+    .logos{
+        display: flex;
+        gap: 50px;
+        margin-left: -5%;
+        margin-top: 2%;
+        
+    }
+    .news{
+        font-size: 25px;
+    }
+    .contacts{
+        font-size: 25px;
+    
+    }
+    .logo{
+        height: 300px;
+        width: 300px;
+        padding-left: 1%;
+        margin-top: -7%;
+        /* padding-top: 180px; */
+    }
+    .logo-and-text{
+        display: flex;
+        flex-direction: column;
+        margin-top: -5%;
+    }
+}
+@media screen and (min-width: 912px) and (max-width: 1368px){
+    #container{
+        background-color: burlywood;
+        /* padding-top: 30px;
+        padding-left: 60px;
+        padding-right: 60px; */
+        width: 740px;
+        height: 1315px;
+        padding-left: 100px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 35px;
+        margin-top: -2%;
+
+    }
+    .signing-up{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        width: 30%;
+        height: 40px;
+        text-align: center;
+        margin-top: 5%;
+
+    }
+    .login{
+        background-color:black;
+        border-radius: 15px;
+        width: 30%;
+        height: 40px;
+        text-align: center;
+        margin-top: 5%;
+       
+    }
+    #text{
+        color: white;
+        text-decoration: none;
+    }
+    .fb{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .ig{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .twitter{
+        width: 130px;
+        height: 130px;
+    }
+    .welcome{
+        font-size: 65px;
+        margin-top: 3%;
+        margin-bottom: -80px;
+    }
+    .logos{
+        display: flex;
+        gap: 50px;
+        margin-left: -5%;
+        margin-top: 3%;
+    }
+    .news{
+        font-size: 25px;
+    }
+    .contacts{
+        font-size: 25px;
+    
+    }
+    .logo{
+        height: 400px;
+        width: 430px;
+        padding-left: 1%;
+        margin-top: -7%;
+        /* padding-top: 180px; */
+    }
+    .logo-and-text{
+        display: flex;
+        flex-direction: column;
+        margin-top: -5%;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 720px){
+    #container{
+        background-color: burlywood;
+        /* padding-top: 30px;
+        padding-left: 60px;
+        padding-right: 60px; */
+        width: 360px;
+        height: 673px;
+        padding-left: 100px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 15px;
+        margin-top: -2%;
+
+    }
+    .signing-up{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        width: 35%;
+        height: 40px;
+        text-align: center;
+        margin-top: 1%;
+
+    }
+    .login{
+        background-color:black;
+        border-radius: 15px;
+        width: 35%;
+        height: 40px;
+        text-align: center;
+        margin-top: 1%;
+       
+    }
+    #text{
+        color: white;
+        text-decoration: none;
+    }
+    .fb{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .ig{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .twitter{
+        width: 80px;
+        height: 80px;
+    }
+    .welcome{
+        font-size: 29px;
+        margin-top: -6%;
+    }
+    .logos{
+        display: flex;
+        gap: 50px;
+        margin-left: -5%;
+        margin-top: 3%;
+    }
+    .news{
+        font-size: 25px;
+    }
+    .contacts{
+        font-size: 25px;
+    
+    }
+    .logo{
+        height: 200px;
+        width: 200px;
+        padding-left: 1%;
+        margin-top: -50%;
+        /* padding-top: 180px; */
+    }
+    .logo-and-text{
+        display: flex;
+        flex-direction: column;
+        margin-top: -5%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    #container{
+        background-color: burlywood;
+        /* padding-top: 30px;
+        padding-left: 60px;
+        padding-right: 60px; */
+        width: 800px;
+        height: 100px;
+        padding-left: 50px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 20px;
+        margin-top: -2%;
+
+    }
+    .signing-up{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        width: 30%;
+        height: 40px;
+        text-align: center;
+        margin-top: 1%;
+
+    }
+    .login{
+        background-color:black;
+        border-radius: 15px;
+        width: 30%;
+        height: 40px;
+        text-align: center;
+        margin-top: 1%;
+       
+    }
+    #text{
+        color: white;
+        text-decoration: none;
+    }
+    .fb{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .ig{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .twitter{
+        width: 50px;
+        height: 50px;
+    }
+    .welcome{
+        font-size: 40px;
+        margin-top: 3%;
+        margin-bottom: -80px;
+    }
+    .logos{
+        display: flex;
+        gap: 50px;
+        margin-left: -5%;
+        margin-top: 2%;
+        
+    }
+    .news{
+        font-size: 25px;
+    }
+    .contacts{
+        font-size: 25px;
+    
+    }
+    .logo{
+        height: 230px;
+        width: 250px;
+        padding-left: 1%;
+        margin-top: -10%;
+        /* padding-top: 180px; */
+    }
+    .logo-and-text{
+        display: flex;
+        flex-direction: column;
+        margin-top: -5%;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1280px){
+    #container{
+        background-color: burlywood;
+        /* padding-top: 30px;
+        padding-left: 60px;
+        padding-right: 60px; */
+        width: 1100px;
+        height: 753px;
+        padding-left: 100px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 22px;
+        margin-top: -2%;
+
+    }
+    .signing-up{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        width: 30%;
+        height: 40px;
+        text-align: center;
+        margin-top: 1%;
+
+    }
+    .login{
+        background-color:black;
+        border-radius: 15px;
+        width: 30%;
+        height: 40px;
+        text-align: center;
+        margin-top: 1%;
+       
+    }
+    #text{
+        color: white;
+        text-decoration: none;
+    }
+    .fb{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .ig{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .twitter{
+        width: 50px;
+        height: 50px;
+    }
+    .welcome{
+        font-size: 40px;
+        margin-top: 2%;
+        margin-bottom: -80px;
+    }
+    .logos{
+        display: flex;
+        gap: 50px;
+        margin-left: -5%;
+        margin-top: 2%;
+        
+    }
+    .news{
+        font-size: 25px;
+    }
+    .contacts{
+        font-size: 25px;
+    
+    }
+    .logo{
+        height: 230px;
+        width: 250px;
+        padding-left: 1%;
+        margin-top: -7%;
+        /* padding-top: 180px; */
+    }
+    .logo-and-text{
+        display: flex;
+        flex-direction: column;
+        margin-top: -5%;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 667px){
+    #container{
+        background-color: burlywood;
+        /* padding-top: 30px;
+        padding-left: 60px;
+        padding-right: 60px; */
+        width: 280px;
+        height: 637px;
+        padding-left: 25px;
+        padding-top: 15px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 17px;
+        margin-top: -2%;
+
+    }
+    .signing-up{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        width: 43%;
+        height: 38px;
+        text-align: center;
+        margin-top: 1%;
+
+    }
+    .login{
+        background-color:black;
+        border-radius: 15px;
+        width: 43%;
+        height: 38px;
+        text-align: center;
+        margin-top: 1%;
+       
+    }
+    #text{
+        color: white;
+        text-decoration: none;
+    }
+    .fb{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .ig{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .twitter{
+        width: 50px;
+        height: 50px;
+    }
+    .welcome{
+        font-size: 23px;
+        margin-top: 3%;
+        margin-bottom: -115px;
+    }
+    .logos{
+        display: flex;
+        gap: 50px;
+        margin-left: -5%;
+        margin-top: 2%;
+        
+    }
+    .news{
+        font-size: 25px;
+    }
+    .contacts{
+        font-size: 25px;
+    
+    }
+    .logo{
+        height: 200px;
+        width: 230px;
+        padding-left: 1%;
+        margin-top: -10%;
+        /* padding-top: 180px; */
+    }
+    .logo-and-text{
+        display: flex;
+        flex-direction: column;
+        margin-top: -5%;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 896px){
+    #container{
+        background-color: burlywood;
+        /* padding-top: 30px;
+        padding-left: 60px;
+        padding-right: 60px; */
+        width: 290px;
+        height: 861px;
+        padding-left: 50px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 20px;
+        margin-top: -2%;
+
+    }
+    .signing-up{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        width: 50%;
+        height: 40px;
+        text-align: center;
+        margin-top: 9%;
+
+    }
+    .login{
+        background-color:black;
+        border-radius: 15px;
+        width: 50%;
+        height: 40px;
+        text-align: center;
+        margin-top: 1%;
+       
+    }
+    #text{
+        color: white;
+        text-decoration: none;
+    }
+    .fb{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .ig{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .twitter{
+        width: 60px;
+        height: 60px;
+    }
+    .welcome{
+        font-size: 30px;
+        margin-top: -3%;
+        margin-bottom: -80px;
+    }
+    .logos{
+        display: flex;
+        gap: 50px;
+        margin-left: -5%;
+        margin-top: 2%;
+        
+    }
+    .news{
+        font-size: 25px;
+    }
+    .contacts{
+        font-size: 25px;
+    
+    }
+    .logo{
+        height: 250px;
+        width: 250px;
+        padding-left: -10%;
+        margin-top: -15%;
+        /* padding-top: 180px; */
+    }
+    .logo-and-text{
+        display: flex;
+        flex-direction: column;
+        margin-top: -5%;
     }
 }
