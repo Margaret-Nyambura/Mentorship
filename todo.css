@@ -1,9 +1,9 @@
 #todo-page{
     background-color: burlywood;
-    width: 65%;
+    width: 1315px;
     padding-left: 200px;
     padding-top: 30px;
-    padding-left: 35%;
+    padding-left: 800px;
     height: 915px;
 }
 .todo{
@@ -15,28 +15,34 @@
     padding-bottom: 50px;
 }
 .nyj{
-    width: 50px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
 }
 .add{
     width: 70px;
     height: 50px;
     border-radius: 15px;
 }
+
 #check{
     width: 70px;
-    height: 30px;
+    height: 40px;
     margin-top: 2%;
+}
+.boxnyj{
+    display: flex;
 }
 #new-task{
     width: 300px;
-    height: 50px;
+    height: 70px;
     border-radius: 20px;
     padding-left: 10px;
 }
 .logo-and-nav{
     display: flex;
     gap: 100px;
+    padding-left: 20px;
 }
 .header{
     display: flex;

@@ -1,11 +1,10 @@
 #nyj-page{
     background-color: burlywood;
-    width: 70%;
     padding-left: 200px;
-    margin-left: 20%;
-    padding-left: 70px;
-    margin-left: 20%;
-    height: 100%;
+    padding-left: 170px;
+    padding-right: 100px;
+    /* margin-left: 20%; */
+    height: 1105px;
 }
 .born-a-crime{
     height: 500px;
@@ -28,12 +27,12 @@
 .navbar{
     display: flex;
     justify-content: space-around;
-    font-size: 24px;
+    font-size: 19px;
     padding-top: 50px;
 
 }
 .summary{
-    font-size: 20px;
+    font-size: 22px;
 }
 a{
     text-decoration: none;
